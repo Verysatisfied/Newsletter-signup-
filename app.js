@@ -23,7 +23,7 @@ app.use(express.static("public"));
 
 app.post("/", function (req, res) {
 
-    // const listId = "5d2d71c4f3";
+    const listId = "5d2d71c4f3";
     const subscribingUser = {
         firstName: req.body.firstName,
         lastName: req.body.lastName,
